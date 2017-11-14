@@ -33,7 +33,7 @@ The present document is the writeup report.
 
 The code for this step is contained in the `get_hog_features()` function contained in the code cell #3 of the IPython notebook CarND-Vehicle-Detection.ipynb
 
-I started by reading in all the `vehicle` and `non-vehicle` images. 
+I started by reading in all the [vehicle](https://s3.amazonaws.com/udacity-sdc/Vehicle_Tracking/vehicles.zip) and [non-vehicle](https://s3.amazonaws.com/udacity-sdc/Vehicle_Tracking/non-vehicles.zip) images. 
 
 I then explored different color spaces and different `skimage.hog()` parameters (`orientations`, `pixels_per_cell`, and `cells_per_block`).  I grabbed random images from each of the two classes and displayed them to get a feel for what the `skimage.hog()` output looks like.
 
