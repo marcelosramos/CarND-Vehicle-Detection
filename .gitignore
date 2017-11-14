@@ -3,3 +3,4 @@
 .vscode
 non-vehicles
 vehicles
+__pycache__
